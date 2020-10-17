@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   font-family: 'Work Sans', sans-serif;
+   font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'oswald', sans-serif; 
+    font-weight: 500px;
+}
+section{
+    padding: 80px 0px;
+}
+.topbarmain {
+    background: #f5f5f5;
+}
+.container {
+    width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+
+}
+.phone {
+    width: 200px;
+    float: left;
+    padding: 15px 10px;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+.email {
+    width: 758px;
+    float: left;
+    padding: 15px 10px;
+}
+
+.social {
+    width: 140px;
+    float: left;
+    transform: .3s;
+}
+.topbarwrapper {
+    overflow: hidden;
+}
+
+.social a {
+    display: block;
+    float: left;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+}
+.social i{color: rgb(71, 66, 66);}
+ 
+.social a:first-child {
+    border-left: 1px solid #ddd;
+}
+.phone i {color: #FF5200;}
+
+.email i {
+    color: #FF5200;
+}
+.social i:hover{
+    color: #FF5200;
+}
+.primarywrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.logo {
+    width: 150px;
+    float: left;
+    margin-top: 17px;
+}
+
+.menu {
+    width: 990px;
+    float: left;
+}
+
+ul.mainMenuitem {
+    list-style: none;
+    float: right;
+}
+
+ul.mainMenuitem li {
+    float: left;
+}
+
+ul.mainMenuitem li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: oswald;
+    text-transform: capitalize;
+    display: block;
+    padding: 30px 15px;
+    color: #1f1d1d;
+    font-weight: 600;
+    transition: .5s;
+}
+ul.mainMenuitem li a:hover{
+    color:  #FF5200;
+}
+
+#homeslider {
+    background: url(images/slide-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+
+}
+.slidercontent {
+    color: white;
+    width: 600px;
+  
+}
+
+.slidercontent h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    float: left;
+    
+
+}
+
+.slidercontent p {
+    font-weight: 600;
+    line-height: 25px;
+    width: 490px;
+    margin-bottom: 30px;
+}
+
+button#sliderworkbutton {
+    background: #FF5200;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 3px;
+    margin-bottom: 100px;
+}
+
+
+
+#services{
+    background: #F5F6F6;
+}
+.sboxwrapper {overflow: hidden;}
+
+.singleBox {
+    width: 225px;
+    background: white;
+    padding: 15px;
+    float: left;
+    margin-right: 30px;
+    transition: 0.3s;
+}
+.singleBox:hover{
+    background: #fb5200;
+    color: white !important;
+    cursor: pointer;
+}
+
+.singleBox:hover h2, i{
+    color: white;
+}
+.singleBox i{color: #fb5200;}
+.singleBox:hover .sboxIcon i{color: white;}
+.singleBox:hover .sboxLink a{color: white !important;}
+.singleBox:hover .sboxLink i{color: white;}
+
+.sboxTitle {
+    text-align: center;
+    width: 156px;
+    margin: auto;
+}
+
+.sboxTitle h2 {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    line-height: 28px;
+    color: #333;
+    margin: 25px 0px;
+}
+.sboxIcon {
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    margin: 25px 0px;
+}
+
+.sboxDesc {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.sboxLink {
+    text-align: center;
+    font-weight: 500;
+    margin: 30px 0px;
+}
+
+.sboxLink a {
+    text-decoration: none;
+    color: #FF5200;
+}
+.sboxactive{
+    background: #fb5200;
+    color: white;
+}
+.singleBox i.fa-long-arrow-right{color: #fb5200;}
+.sboxactive h2{color: white;}
+.sboxactive a{color: white;}
+.sboxactive i{color: white;}
+.sboxactive i.fa-long-arrow-right{color: white;}
